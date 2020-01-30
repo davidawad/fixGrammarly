@@ -1,0 +1,16 @@
+{
+  "name": "fix Grammarly",
+  "version": "2.0.0",
+  "description": "Saves you time by clicking the damn grammarly blurb for you.",
+  "content_scripts": [{
+      "matches": ["*://*.com/*"],
+      "js": ["jquery.min.js", "fix.js"],
+      "run_at": "document_start"
+  }],
+  "icons": {
+    "16": "images/icon-red.png",
+    "48": "images/icon-red.png",
+    "128": "images/icon-red.png"
+  },
+  "manifest_version": 2
+}
