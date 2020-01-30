@@ -82,4 +82,4 @@ function checkErrors(){
 }
 
 
-// window.setInterval(checkErrors, 1000);
+window.setInterval(checkErrors, 1000);
